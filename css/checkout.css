@@ -1,0 +1,102 @@
+
+#mainNav {
+    min-height: 3.5rem;
+    background-color: transparent;
+    font-size: 90%;
+}
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #000000;
+    border: 1px solid #000000;
+}
+#mainNav .navbar-toggler:focus {
+    outline: none;
+}
+#mainNav .navbar-brand {
+    color: #000000;
+    font-weight: 700;
+    padding: 0.9rem 0;
+}
+#mainNav .navbar-nav .nav-item:hover {
+    color: fade(#fff, 80%);
+    outline: none;
+    background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+.nav-link {
+    color: rgb(90, 90, 90);
+    font-size: 70%;
+    text-align: center;
+}
+@media (max-width: 992px) {
+    #mainNav {
+        background-color: #fff;
+        transition: background-color 0.5s ease;
+    }
+    #mainNav .navbar-brand {
+        color: #000;
+        transition: color 0.5s ease;
+        /*color: rgba(255, 255, 255, 0.5);*/
+    }
+    #mainNav.navbar-shrink {
+        background-color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #000000;
+    }
+}
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: transparent;
+        transition: background-color 0.5s ease;
+    }
+    #mainNav .navbar-brand {
+        padding: 0.5rem 0;
+        color: rgb(0, 0, 0);
+        /*color: rgba(255, 255, 255, 0.5);*/
+    }
+    .right-link {
+        color: #fff;
+    }    
+    #mainNav .nav-link {
+        transition: 0.5s ease;
+        padding: 2rem 1rem;
+        /*color: rgba(255, 255, 255, 0.5);*/
+    }
+    #mainNav .nav-link:hover {
+        color: #000000;
+    }
+    #mainNav .nav-link:active {
+        color: rgb(0, 0, 0);
+    }
+    #mainNav.navbar-shrink {
+        background-color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #000000;
+    }
+    #mainNav.navbar-shrink .nav-link {
+        color: rgb(90, 90, 90);
+        padding: 1.5rem 1rem 1.25rem;
+        border-bottom: 1px solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+        color: rgb(0, 0, 0);
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+        color: #000000;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #000000;
+        outline: none;
+        border-bottom: 2px solid #000000;
+    }
+}
