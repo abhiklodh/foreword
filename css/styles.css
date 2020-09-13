@@ -394,6 +394,7 @@ body {
 .favorites {
     padding: 3rem 0;
 }
+
 .header-1 {
     padding: 1rem 0;
 }
@@ -428,6 +429,7 @@ body {
     font-weight: 600;
     padding-bottom: 2rem;
 }
+
 .book-info {
     color: rgb(145, 144, 144);
     font-size: 95%;
@@ -1098,7 +1100,95 @@ input[type="radio"] {
     background-color: #000;
 }
 
-
 .link-product {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .heading1 {
+        font-size: 280%;
+    }
+    .heading2 {
+        font-size: 350%;
+    }
+    .heading3 {
+        font-size: 320%;
+    }
+    .heading4 {
+        font-size: 220%;
+    }
+    .heading5 {
+        font-size: 120%;
+    }
+    .new-text {
+        font-size: 80%;
+    }
+    .new-img {
+        width: 80% !important;
+    }
+    .new-bg {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .ana-img {
+        width: 80% !important;
+    }
+    .ana-bg {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .bg-hover-1 {
+        margin-bottom: 2rem;
+    }
+    .bg-hover-2 {
+        margin-bottom: 2rem;
+    }
+    .book-text {
+        font-size: 300%;
+    }
+    .button_base {
+        width: 100%;
+    }
+    .button_base-2 {
+        margin-bottom: 2rem;
+        float: none !important;
+        width: 100%;
+    }
+    .form-field {
+        width: 100%;
+    }
+    .blog-bg-1 {
+        margin-bottom: 2rem;
+    }
+    .blog-bg-3 {
+        margin-top: -4rem;
+        margin-bottom: 2rem;
+    }
+    .article-text {
+        padding-right: 0 !important;
+    }
+    .padding-1 {
+        margin-left: 2rem;
+    }
+    .padding-0-new {
+        margin-left: 2rem;
+        margin-right: 2rem !important;
+    }
+    .padding-3 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .product-img {
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+    }
+    .product-pad {
+        padding-top: 4rem !important;
+    }
+    .product-pad-0 {
+        padding-top: 0 !important;
+    }
+    .img-pad {
+        padding-bottom: 6rem !important;
+    }
 }
